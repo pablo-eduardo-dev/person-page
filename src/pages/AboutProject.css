@@ -1,0 +1,23 @@
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 76px auto 10px auto;
+}
+
+.content {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content p {
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content img {
+  width: 300px;
+}

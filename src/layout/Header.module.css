@@ -1,0 +1,44 @@
+.headerContainer {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 0;
+
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.headerWrapper nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.headerWrapper nav ul li a {
+    font-weight: 400;
+    color: white;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    transition: .35s;
+}
+
+.logo a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.mebuBtn {
+    cursor: pointer;
+}

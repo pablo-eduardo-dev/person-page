@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: absolute;
+  right: 0;
+}
+
+.container ul li,
+#about {
+  padding: 15px 10px;
+  border-radius: 7px;
+  background-color: white;
+  width: 150px;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 5px  ;
+}

@@ -1,0 +1,53 @@
+.modal {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: grid;
+  place-content: center;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+/* Modal  */
+
+.modalContainer {
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  background: radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .9)), url('../assets/thumbnail.jpg') center / cover no-repeat; 
+  z-index: 101;
+}
+
+.modalContainer svg {
+  color: black;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.modalContainer svg:nth-child(2) {
+  color: #4267B2;
+}
+.modalContainer svg:nth-child(3) {
+  color: #7289da;
+}
+.modalContainer svg:nth-child(4) {
+  color: black;
+}
+.modalContainer svg:nth-child(5) {
+  color: #25d366;
+}
+
+
+.btnClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+} 
